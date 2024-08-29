@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+}
+
+.header__header {
+    display: flex;
+    height: 6rem;
+}
+
+header hr {
+    color: #f0f0f0;
+    opacity: 10%;
+}
+
+.topo__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 2rem;
+}
+
+.logo__header {
+    height: 1rem;
+    
+}
+
+.nav__header ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #ababab;
+}
+
+.divBtn__header {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__header {
+    border: 2px solid;
+    border-color: #e7e7e7;
+    height: 3.5rem;
+    background-color: #fff;
+    width: 12rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(235, 134, 2);
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+/*MAIN*/
+.parteUm__banner {
+    display: flex;
+    padding: 10% 20% 5% 20%;
+    gap: 8rem;
+    background-color: #f7f7f7;
+}
+
+.topo__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 25rem;
+}
+
+.titulo__banner {
+    font-family: 'Poppins',sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #555555;
+    letter-spacing: -0.9px;
+}
+
+
+.texto__banner {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #8f8e8e;
+    font-size: 1.3rem;
+}
+
+.img__banner {
+    height: 20rem;
+}
+
+.btn__banner {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    width: 12rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    background-color: #eb8602;
+    cursor: pointer;
+}
+
+/*GALERIA*/
+.parteDois__galeria {
+    padding: 5% 20% 5% 20%;
+}
+
+.topo__galeria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.titulo__galeria {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #555555;
+    font-size: 1.7rem;
+}
+
+.btn__galeria {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    border: 2px solid;
+    border-color: #e7e7e7;
+    color: #eb8602;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.img__galeria {
+    width: 33%;
+}
+
+/*DETALHES*/
+.parteTres__detalhes {
+    display: flex;
+    padding: 5% 20% 0% 20%;
+    height: 60rem;
+    gap: 5rem;
+}
+
+.col1__detalhes{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 4.5%;
+}
+
+.tituloCol1__detalhes {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #555555;
+}
+
+.botoes__detalhes {
+    display: flex;
+    gap: 10%;
+}
+
+.btn__detalhes {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #eb8602;
+    color: #fff;
+    cursor: pointer;
+}
+
+.img__detalhes {
+    height: 40%;
+    width: 100%;
+}
+
+.texto__detalhes {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color:#555555 ;
+}
+
+
+.col2__detalhes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.col2__detalhes hr {
+    color: #f0f0f0;
+    opacity: 30%;
+}
+
+.tituloCol2__detalhes {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #555555;
+
+}
+
+.esp__detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.frases__detalhes {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #555555;
+    font-size: 1.2rem;
+    gap: 5%;
+}
+
+
+.btnCol2__detalhes {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    width: 12rem;
+    height: 3.2rem;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    background-color: #eb8602;
+    cursor: pointer;
+}
+
+/*EMAIL*/
+
+.parteQuatro__email {
+    padding: 5% 20% 5% 20%;
+}
+
+.centralizar__email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20,20,20);
+    background: linear-gradient(75deg, rgba(20,20,20,1) 0%, rgba(56,53,53,1) 51%, rgba(88,88,89,1) 100%);
+    height: 35rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.col1__email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5%;
+    width: 50%;
+}
+
+.titulo__email {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.input__email {
+    height: 4rem;
+    border: none;
+    outline: none;
+    padding: 5%;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn__email {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    width: 100%;
+    height: 3.5rem;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    background-color: #eb8602;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+.parteCinco__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 20% 2% 20%;
+    background-color: #f7f7f7;
+}
+
+.rol1__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: -8rem;
+}
+
+.logo__footer {
+    height:2rem;
+    width: 5rem;
+}
+
+.texto__footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #555555;
+    font-size: 1.2rem;
+}
+
+.col2__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav__footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    list-style: none;
+    color: #555555;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-top: -2rem;
+}
+
+.nav__footer li {
+    cursor: pointer;
+}
+
+.col3__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.3rem;
+    margin-top: -6rem;
+}
+
+.tituloCol3__footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #555555;
+}
+
+.rolImg__footer {
+    display: flex;
+    gap: 1rem;
+}
+
+.img__footer {
+    height: 3rem;
+    padding: 5%;
+    width: 30%;
+    border: 2px solid #ababab;
+    cursor: pointer;
+
+}
+
+footer hr {
+    color: #f0f0f0;
+    opacity: 10%;
+    margin: 5% 0%;
+}
+
+.rol2__footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tituloRol2__footer {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: #555555;
+    font-weight: 400;
+
+}
